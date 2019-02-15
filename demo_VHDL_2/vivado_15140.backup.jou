@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Jun 11 13:48:59 2018
+# Process ID: 15140
+# Current directory: C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6696 C:\Users\hugob\Desktop\Stage\Projets\demo_VHDL_2\demo_VHDL_2.xpr
+# Log file: C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/vivado.log
+# Journal file: C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+set_property IOSTANDARD LVCMOS18 [get_ports [list {seg[6]} {seg[5]} {seg[4]} {seg[3]} {seg[2]} {seg[1]} {seg[0]}]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list {an[7]} {an[6]} {an[5]} {an[4]} {an[3]} {an[2]} {an[1]} {an[0]}]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list {swt[7]} {swt[6]} {swt[5]} {swt[4]} {swt[3]} {swt[2]} {swt[1]} {swt[0]}]]
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+set_property IOSTANDARD LVCMOS18 [get_ports [list clk]]
+set_property package_pin "" [get_ports [list  clk]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list {an[7]} {an[6]} {an[5]} {an[4]} {an[3]} {an[2]} {an[1]} {an[0]}]]

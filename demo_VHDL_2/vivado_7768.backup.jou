@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Apr 27 10:42:00 2018
+# Process ID: 7768
+# Current directory: C:/Users/hugob/Desktop/demo_VHDL_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10476 C:\Users\hugob\Desktop\demo_VHDL_2\demo_VHDL_2.xpr
+# Log file: C:/Users/hugob/Desktop/demo_VHDL_2/vivado.log
+# Journal file: C:/Users/hugob/Desktop/demo_VHDL_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hugob/Desktop/demo_VHDL_2/demo_VHDL_2.xpr

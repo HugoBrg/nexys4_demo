@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Apr 27 15:59:00 2018
+# Process ID: 348
+# Current directory: C:/Users/hugob/Desktop/demo_VHDL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8100 C:\Users\hugob\Desktop\demo_VHDL\demo_VHDL.xpr
+# Log file: C:/Users/hugob/Desktop/demo_VHDL/vivado.log
+# Journal file: C:/Users/hugob/Desktop/demo_VHDL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hugob/Desktop/demo_VHDL/demo_VHDL.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 813.371 ; gain = 123.703
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Apr 27 15:59:33 2018] Launched synth_1...
+Run output will be captured here: C:/Users/hugob/Desktop/demo_VHDL/demo_VHDL.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+launch_runs impl_1 -jobs 4
+[Fri Apr 27 16:00:22 2018] Launched impl_1...
+Run output will be captured here: C:/Users/hugob/Desktop/demo_VHDL/demo_VHDL.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Apr 27 16:02:06 2018] Launched impl_1...
+Run output will be captured here: C:/Users/hugob/Desktop/demo_VHDL/demo_VHDL.runs/impl_1/runme.log

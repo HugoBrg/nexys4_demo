@@ -1,0 +1,90 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 7768
+License: Customer
+
+Current time: 	Fri Apr 27 10:42:22 ICT 2018
+Time zone: 	Indochina Time (Asia/Bangkok)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 38 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Vivado/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Vivado/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	hugob
+User home directory: C:/Users/hugob
+User working directory: C:/Users/hugob/Desktop/demo_VHDL_2
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Vivado/Vivado
+HDI_APPROOT: C:/Vivado/Vivado/2018.1
+RDI_DATADIR: C:/Vivado/Vivado/2018.1/data
+RDI_BINDIR: C:/Vivado/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/hugob/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/hugob/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/hugob/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Vivado/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/hugob/Desktop/demo_VHDL_2/vivado.log
+Vivado journal file location: 	C:/Users/hugob/Desktop/demo_VHDL_2/vivado.jou
+Engine tmp dir: 	C:/Users/hugob/Desktop/demo_VHDL_2/.Xil/Vivado-7768-DESKTOP-M1QA4LA
+
+GUI allocated memory:	190 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 543 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\hugob\Desktop\demo_VHDL_2\demo_VHDL_2.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// [GUI Memory]: 65 MB (+65220kb) [00:00:06]
+// [Engine Memory]: 502 MB (+374524kb) [00:00:06]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/hugob/Desktop/demo_VHDL_2/demo_VHDL_2.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/hugob/Desktop/demo_VHDL_2/demo_VHDL_2.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 587 MB (+63122kb) [00:00:10]
+// [GUI Memory]: 79 MB (+11486kb) [00:00:11]
+// [Engine Memory]: 623 MB (+6851kb) [00:00:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 627 MB. GUI used memory: 39 MB. Current time: 4/27/18 10:42:27 AM ICT
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 870.941 ; gain = 139.875 
+// [Engine Memory]: 660 MB (+6779kb) [00:00:13]
+// Project name: demo_VHDL_2; location: C:/Users/hugob/Desktop/demo_VHDL_2; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET

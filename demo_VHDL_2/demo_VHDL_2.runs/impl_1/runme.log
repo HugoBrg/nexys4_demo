@@ -1,0 +1,20 @@
+
+*** Running vivado
+    with args -log demo_VHDL_2.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source demo_VHDL_2.tcl -notrace
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source demo_VHDL_2.tcl -notrace
+
+*** Halting run - EA reset detected ***
+
+
+
+    while executing
+"start_step init_design"
+    (file "demo_VHDL_2.tcl" line 64)
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 11 13:54:12 2018...

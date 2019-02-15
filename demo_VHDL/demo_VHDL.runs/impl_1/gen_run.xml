@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1525254186">
+  <File Type="ROUTE-PWR" Name="demo_VHDL_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="demo_VHDL.tcl"/>
+  <File Type="PWROPT-DCP" Name="demo_VHDL_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="demo_VHDL_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="demo_VHDL_reports.tcl"/>
+  <File Type="BG-DRC" Name="demo_VHDL.drc"/>
+  <File Type="OPT-HWDEF" Name="demo_VHDL.hwdef"/>
+  <File Type="OPT-DCP" Name="demo_VHDL_opt.dcp"/>
+  <File Type="OPT-DRC" Name="demo_VHDL_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="demo_VHDL_placed.dcp"/>
+  <File Type="PLACE-IO" Name="demo_VHDL_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="demo_VHDL_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="demo_VHDL_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="demo_VHDL_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="demo_VHDL_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="demo_VHDL_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="demo_VHDL_physopt.dcp"/>
+  <File Type="BG-BIT" Name="demo_VHDL.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="demo_VHDL_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="demo_VHDL_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="demo_VHDL_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="demo_VHDL_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="demo_VHDL_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="demo_VHDL_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="demo_VHDL.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="demo_VHDL_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="demo_VHDL.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="demo_VHDL_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="demo_VHDL.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="demo_VHDL_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="demo_VHDL.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="demo_VHDL_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="demo_VHDL_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="demo_VHDL_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="demo_VHDL_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="demo_VHDL_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="demo_VHDL_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="demo_VHDL_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="demo_VHDL.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="demo_VHDL_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="demo_VHDL_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="demo_VHDL.nky"/>
+  <File Type="BITSTR-BMM" Name="demo_VHDL_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="demo_VHDL.mmi"/>
+  <File Type="BITSTR-LTX" Name="demo_VHDL.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="demo_VHDL.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/demo_VHDL.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="demo_VHDL"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../../../Nexys4_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,424 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Jun 11 13:51:28 2018
+# Process ID: 5252
+# Current directory: C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.runs/synth_1
+# Command line: vivado.exe -log demo_VHDL_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source demo_VHDL_2.tcl
+# Log file: C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.runs/synth_1/demo_VHDL_2.vds
+# Journal file: C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source demo_VHDL_2.tcl -notrace
+Command: synth_design -top demo_VHDL_2 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15092 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 364.410 ; gain = 99.449
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'demo_VHDL_2' [C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.srcs/sources_1/new/demo_VHDL_2.vhd:45]
+WARNING: [Synth 8-614] signal 'led_int' is read in the process but is not in the sensitivity list [C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.srcs/sources_1/new/demo_VHDL_2.vhd:49]
+WARNING: [Synth 8-614] signal 'swt' is read in the process but is not in the sensitivity list [C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.srcs/sources_1/new/demo_VHDL_2.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'demo_VHDL_2' (1#1) [C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.srcs/sources_1/new/demo_VHDL_2.vhd:45]
+WARNING: [Synth 8-3331] design demo_VHDL_2 has unconnected port swt[7]
+WARNING: [Synth 8-3331] design demo_VHDL_2 has unconnected port swt[6]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 418.305 ; gain = 153.344
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 418.305 ; gain = 153.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 418.305 ; gain = 153.344
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/hugob/Desktop/Nexys4_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'reset_btn'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:170]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:170]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_rx'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:467]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:467]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_tx'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:471]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:471]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'we'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:573]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:573]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[0]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:635]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:635]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[1]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:638]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:638]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[2]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:641]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:641]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[3]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:644]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:644]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[4]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:647]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:647]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[5]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:650]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:650]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[6]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:653]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:653]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[0]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:658]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:658]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[1]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:661]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:661]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[2]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:664]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:664]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[3]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:667]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:667]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[4]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:670]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:670]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[5]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:673]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:673]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[6]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:676]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:676]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'reset_btn'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:735]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:735]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:736]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:736]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_rx'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:737]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:737]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_tx'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:738]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:738]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[6]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:745]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:745]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[5]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:746]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:746]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[4]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:747]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:747]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[3]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:748]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:748]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[2]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:749]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:749]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[1]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:750]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:750]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[0]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:751]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:751]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[6]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:752]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:752]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[5]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:753]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:753]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[4]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:754]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:754]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[3]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:755]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:755]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[2]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:756]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:756]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[1]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:757]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:757]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[0]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:758]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:758]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'we'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:759]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:759]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/hugob/Desktop/Nexys4_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/hugob/Desktop/Nexys4_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/demo_VHDL_2_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/demo_VHDL_2_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 759.559 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 759.559 ; gain = 494.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 759.559 ; gain = 494.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 759.559 ; gain = 494.598
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "an" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "led_int" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 759.559 ; gain = 494.598
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module demo_VHDL_2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "led_int" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "an" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design demo_VHDL_2 has unconnected port swt[7]
+WARNING: [Synth 8-3331] design demo_VHDL_2 has unconnected port swt[6]
+INFO: [Synth 8-3886] merging instance 'seg_reg[0]' (FDSE) to 'seg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'seg_reg[1]' (FDSE) to 'seg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'seg_reg[2]' (FDSE) to 'seg_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\seg_reg[3] )
+INFO: [Synth 8-3886] merging instance 'seg_reg[4]' (FDSE) to 'seg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'seg_reg[5]' (FDSE) to 'seg_reg[6]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\seg_reg[6] )
+WARNING: [Synth 8-3332] Sequential element (seg_reg[6]) is unused and will be removed from module demo_VHDL_2.
+WARNING: [Synth 8-3332] Sequential element (seg_reg[3]) is unused and will be removed from module demo_VHDL_2.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 759.559 ; gain = 494.598
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 759.559 ; gain = 494.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 759.559 ; gain = 494.598
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 762.930 ; gain = 497.969
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 762.930 ; gain = 497.969
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 762.930 ; gain = 497.969
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 762.930 ; gain = 497.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 762.930 ; gain = 497.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 762.930 ; gain = 497.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 762.930 ; gain = 497.969
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     4|
+|4     |LUT2   |     8|
+|5     |LUT3   |     5|
+|6     |LUT4   |     5|
+|7     |LUT5   |     4|
+|8     |FDRE   |    51|
+|9     |IBUF   |     7|
+|10    |OBUF   |    23|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   116|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 762.930 ; gain = 497.969
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 762.930 ; gain = 156.715
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 762.930 ; gain = 497.969
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 46 Warnings, 38 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 774.289 ; gain = 521.820
+INFO: [Common 17-1381] The checkpoint 'C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.runs/synth_1/demo_VHDL_2.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file demo_VHDL_2_utilization_synth.rpt -pb demo_VHDL_2_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 774.289 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 11 13:52:12 2018...

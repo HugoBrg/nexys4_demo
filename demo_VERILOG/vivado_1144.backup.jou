@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Jun 15 14:25:52 2018
+# Process ID: 1144
+# Current directory: C:/Users/hugob/Desktop/Stage/Projets/demo_VERILOG
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15204 C:\Users\hugob\Desktop\Stage\Projets\demo_VERILOG\demo_VERILOG.xpr
+# Log file: C:/Users/hugob/Desktop/Stage/Projets/demo_VERILOG/vivado.log
+# Journal file: C:/Users/hugob/Desktop/Stage/Projets/demo_VERILOG\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hugob/Desktop/Stage/Projets/demo_VERILOG/demo_VERILOG.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1

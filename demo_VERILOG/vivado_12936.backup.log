@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Apr 27 16:02:39 2018
+# Process ID: 12936
+# Current directory: C:/Users/hugob/Desktop/demo_VERILOG
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2728 C:\Users\hugob\Desktop\demo_VERILOG\demo_VERILOG.xpr
+# Log file: C:/Users/hugob/Desktop/demo_VERILOG/vivado.log
+# Journal file: C:/Users/hugob/Desktop/demo_VERILOG\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hugob/Desktop/demo_VERILOG/demo_VERILOG.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 887.980 ; gain = 153.117
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Fri Apr 27 16:03:22 2018] Launched synth_1...
+Run output will be captured here: C:/Users/hugob/Desktop/demo_VERILOG/demo_VERILOG.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Fri Apr 27 16:04:18 2018] Launched impl_1...
+Run output will be captured here: C:/Users/hugob/Desktop/demo_VERILOG/demo_VERILOG.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Fri Apr 27 16:05:41 2018] Launched impl_1...
+Run output will be captured here: C:/Users/hugob/Desktop/demo_VERILOG/demo_VERILOG.runs/impl_1/runme.log

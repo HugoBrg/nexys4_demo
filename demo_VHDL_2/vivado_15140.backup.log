@@ -1,0 +1,184 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Jun 11 13:48:59 2018
+# Process ID: 15140
+# Current directory: C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6696 C:\Users\hugob\Desktop\Stage\Projets\demo_VHDL_2\demo_VHDL_2.xpr
+# Log file: C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/vivado.log
+# Journal file: C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Vivado/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 863.902 ; gain = 95.016
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.runs/synth_1
+
+launch_runs impl_1 -jobs 4
+[Mon Jun 11 13:51:21 2018] Launched synth_1...
+Run output will be captured here: C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.runs/synth_1/runme.log
+[Mon Jun 11 13:51:21 2018] Launched impl_1...
+Run output will be captured here: C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a100tcsg324-1
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlisexit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 11 13:59:13 2018...
+Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'reset_btn'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:170]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:170]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_rx'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:467]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:467]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_tx'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:471]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:471]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'we'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:573]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:573]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[0]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:635]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:635]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[1]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:638]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:638]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[2]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:641]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:641]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[3]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:644]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:644]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[4]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:647]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:647]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[5]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:650]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:650]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[6]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:653]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:653]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[0]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:658]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:658]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[1]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:661]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:661]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[2]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:664]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:664]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[3]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:667]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:667]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[4]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:670]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:670]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[5]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:673]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:673]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[6]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:676]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:676]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'reset_btn'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:735]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:735]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:736]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:736]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_rx'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:737]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:737]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'uart_tx'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:738]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:738]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[6]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:745]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:745]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[5]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:746]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:746]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[4]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:747]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:747]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[3]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:748]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:748]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[2]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:749]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:749]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[1]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:750]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:750]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'radd[0]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:751]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:751]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[6]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:752]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:752]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[5]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:753]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:753]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[4]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:754]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:754]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[3]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:755]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:755]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[2]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:756]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:756]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[1]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:757]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:757]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'wadd[0]'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:758]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:758]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'we'. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:759]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/hugob/Desktop/Nexys4_Master.xdc:759]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/hugob/Desktop/Nexys4_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 1313.316 ; gain = 401.031
+set_property IOSTANDARD LVCMOS18 [get_ports [list {seg[6]} {seg[5]} {seg[4]} {seg[3]} {seg[2]} {seg[1]} {seg[0]}]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list {an[7]} {an[6]} {an[5]} {an[4]} {an[3]} {an[2]} {an[1]} {an[0]}]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list {swt[7]} {swt[6]} {swt[5]} {swt[4]} {swt[3]} {swt[2]} {swt[1]} {swt[0]}]]
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.061 . Memory (MB): peak = 1789.598 ; gain = 0.680
+[Mon Jun 11 13:53:58 2018] Launched impl_1...
+Run output will be captured here: C:/Users/hugob/Desktop/Stage/Projets/demo_VHDL_2/demo_VHDL_2.runs/impl_1/runme.log
+reset_run impl_1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+INFO: [Common 17-344] 'reset_run' was cancelled
+set_property IOSTANDARD LVCMOS18 [get_ports [list clk]]
+set_property package_pin "" [get_ports [list  clk]]
+set_property IOSTANDARD LVCMOS18 [get_ports [list {an[7]} {an[6]} {an[5]} {an[4]} {an[3]} {an[2]} {an[1]} {an[0]}]]
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 11 13:59:11 2018...
